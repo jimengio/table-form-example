@@ -3,6 +3,8 @@ import React from "react";
 
 import { configureSeedHosts } from "./generator/configs";
 
+import "antd/dist/antd.min.css";
+
 configureSeedHosts({
   apiHost: "http://fe.jimu.io:11022",
 });

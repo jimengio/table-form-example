@@ -56,10 +56,13 @@
     "webpack-hud": "^0.1.2"
   },
   "dependencies": {
+    "@jimengio/dropdown": "^0.1.37",
+    "@jimengio/fa-icons": "^0.2.0",
     "@jimengio/jimo-basics": "^0.1.4",
     "@jimengio/jimo-icons": "^0.3.10",
     "@jimengio/meson-form": "^0.4.13",
     "@jimengio/meson-modal": "^0.3.8",
+    "@jimengio/rex": "^0.1.7",
     "@jimengio/rough-table": "^0.2.21",
     "@jimengio/ruled-router": "^0.2.25",
     "@jimengio/yapi-ts-generator": "^0.0.1",

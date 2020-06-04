@@ -165,12 +165,27 @@
     react-copy-to-clipboard "^5.0.2"
     remarkable "^2.0.0"
 
-"@jimengio/flex-styles@^0.1.6":
+"@jimengio/dropdown@^0.1.37":
+  version "0.1.37"
+  resolved "https://registry.npm.taobao.org/@jimengio/dropdown/download/@jimengio/dropdown-0.1.37.tgz#898169ba0a467f4b1459c6ac447078dc3fa7e3fb"
+  integrity sha1-iYFpugpGf0sUWcasRHB43D+n4/s=
+  dependencies:
+    "@jimengio/flex-styles" "^0.1.5"
+    "@jimengio/jimo-basics" "^0.1.3"
+    react-transition-group "^4.4.1"
+    use-debounce "^3.4.2"
+
+"@jimengio/fa-icons@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/@jimengio/fa-icons/download/@jimengio/fa-icons-0.2.0.tgz#50cfe599ee4c9ab70e780be4ddc6dc78d8bd33a8"
+  integrity sha1-UM/lme5MmrcOeAvk3cbceNi9M6g=
+
+"@jimengio/flex-styles@^0.1.5", "@jimengio/flex-styles@^0.1.6":
   version "0.1.6"
   resolved "https://registry.npm.taobao.org/@jimengio/flex-styles/download/@jimengio/flex-styles-0.1.6.tgz#d37e37aa4a85c72feff386c27b920a5f8c5f6335"
   integrity sha1-0343qkqFxy/v84bCe5IKX4xfYzU=
 
-"@jimengio/jimo-basics@^0.1.4":
+"@jimengio/jimo-basics@^0.1.3", "@jimengio/jimo-basics@^0.1.4":
   version "0.1.4"
   resolved "https://registry.npm.taobao.org/@jimengio/jimo-basics/download/@jimengio/jimo-basics-0.1.4.tgz#a8ef5f7f260ba07e490ceab824a9d7f504c84006"
   integrity sha1-qO9ffyYLoH5JDOq4JKnX9QTIQAY=
@@ -205,6 +220,13 @@
     emotion "^10.0.27"
     query-string "^6.12.1"
     react-transition-group "^4.4.1"
+
+"@jimengio/rex@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.npm.taobao.org/@jimengio/rex/download/@jimengio/rex-0.1.7.tgz#e308fb9f1f81fa6e601a56f69864d06b4c551685"
+  integrity sha1-4wj7nx+B+m5gGlb2mGTQa0xVFoU=
+  dependencies:
+    shallowequal "*"
 
 "@jimengio/rough-table@^0.2.21":
   version "0.2.21"
@@ -5308,7 +5330,7 @@ shallow-equal@^1.0.0:
   resolved "https://registry.npm.taobao.org/shallow-equal/download/shallow-equal-1.2.1.tgz#4c16abfa56043aa20d050324efa68940b0da79da"
   integrity sha1-TBar+lYEOqINBQMk76aJQLDaedo=
 
-shallowequal@^1.0.2, shallowequal@^1.1.0:
+shallowequal@*, shallowequal@^1.0.2, shallowequal@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
@@ -5956,6 +5978,11 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-debounce@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.npm.taobao.org/use-debounce/download/use-debounce-3.4.2.tgz#f4333cca59504244b916159600427bf977ec4c46"
+  integrity sha1-9DM8yllQQkS5FhWWAEJ7+XfsTEY=
 
 use-deep-compare-effect@^1.3.1:
   version "1.3.1"
