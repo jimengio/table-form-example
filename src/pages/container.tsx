@@ -5,6 +5,7 @@ import { fullscreen, row, expand } from "@jimengio/flex-styles";
 import { HashRedirect, findRouteTarget } from "@jimengio/ruled-router/lib/dom";
 import { genRouter, GenRouterTypeMain } from "controller/generated-router";
 import { ISidebarEntry, DocSidebar } from "@jimengio/doc-frame";
+import PageTasks from "./tasks";
 
 let items: ISidebarEntry[] = [
   {
@@ -16,6 +17,7 @@ let items: ISidebarEntry[] = [
 const renderChildPage = (routerTree: GenRouterTypeMain) => {
   switch (routerTree?.name) {
     case "home":
+      return <PageTasks />;
     default:
       return <HashRedirect to={genRouter.$.path()} noDelay />;
   }

@@ -1,6 +1,12 @@
 import ReactDOM from "react-dom";
 import React from "react";
 
+import { configureSeedHosts } from "./generator/configs";
+
+configureSeedHosts({
+  apiHost: "http://fe.jimu.io:11022",
+});
+
 import "main.css";
 
 import { parseRoutePath } from "@jimengio/ruled-router";
