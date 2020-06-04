@@ -12,7 +12,7 @@
     "jsx": "react",
     "lib": ["es2016", "dom"],
     "types": ["node"],
-    "baseUrl": "./example/",
+    "baseUrl": "./src/",
     "plugins": [
       {
         "name": "typescript-styled-plugin"

@@ -12,9 +12,9 @@
     "jsx": "react",
     "lib": ["es2016"],
     "types": ["node"],
-    "baseUrl": "./example/",
+    "baseUrl": "./src/",
     "paths": {
-        "models": ["./example/models"]
+      "models": ["./src/models"]
     },
     "plugins": []
   }

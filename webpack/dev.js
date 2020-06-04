@@ -10,7 +10,7 @@ let dllManifest = require("./dll/manifest.json");
 
 module.exports = {
   mode: "development",
-  entry: ["webpack-hud", "./example/main.tsx"],
+  entry: ["webpack-hud", "./src/main.tsx"],
   output: {
     filename: "index.js",
     path: path.join(__dirname, "/dist"),
@@ -21,7 +21,7 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
-    modules: [path.join(__dirname, "../example"), "node_modules"],
+    modules: [path.join(__dirname, "../src"), "node_modules"],
   },
   devServer: {
     contentBase: __dirname,

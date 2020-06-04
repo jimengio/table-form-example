@@ -18,7 +18,7 @@ let trackingCode = "";
 module.exports = {
   mode: "production",
   entry: {
-    main: ["./example/main.tsx"],
+    main: ["./src/main.tsx"],
   },
   output: {
     filename: "[name].[chunkhash:8].js",
@@ -36,7 +36,7 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
-    modules: [path.join(__dirname, "../example"), "node_modules"],
+    modules: [path.join(__dirname, "../src"), "node_modules"],
   },
   stats: {
     all: false,
